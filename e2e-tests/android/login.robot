@@ -17,7 +17,7 @@ Login fields with valid values
     Input Text    ${password}    298832
 
 *** Test Cases ***
-Log user in application successfully
+Display error message by trying log the user in application
     Open Test Application
     Sleep    3s
     Login fields with valid values
