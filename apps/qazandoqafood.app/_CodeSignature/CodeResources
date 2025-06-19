@@ -23,7 +23,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/Nui4QSlJgeDWqhWu8wfDfPm2Lo=
+		kjgKWKdsZgqazw4CLlww52x0o50=
 		</data>
 		<key>Frameworks/hermes.framework/Info.plist</key>
 		<data>
@@ -73,17 +73,85 @@
 		<data>
 		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
 		</data>
+		<key>assets/src/assets/acai.png</key>
+		<data>
+		hFC9W6Gd1tKpP+HVLLY5He46HFE=
+		</data>
+		<key>assets/src/assets/back.png</key>
+		<data>
+		Ane8jFCCQf3kGu54U6yGXC7GT0M=
+		</data>
+		<key>assets/src/assets/banner-mc.png</key>
+		<data>
+		dttO6mGQHOYbIVNKc6QyqaKuNXY=
+		</data>
+		<key>assets/src/assets/bolo.png</key>
+		<data>
+		6HRiXAct5pw/ErNIKezuhQEed7A=
+		</data>
+		<key>assets/src/assets/cart.png</key>
+		<data>
+		hp4/BFnvKE7HOhgzDHKQKZlliqU=
+		</data>
+		<key>assets/src/assets/checked.png</key>
+		<data>
+		r3l9en5wpMZXOG2S8F9pTPkOB0g=
+		</data>
+		<key>assets/src/assets/credit-card.png</key>
+		<data>
+		s6BffOfyLfz7wQua4XuTOfeOzIo=
+		</data>
+		<key>assets/src/assets/cupom.png</key>
+		<data>
+		rRFQNfhfQknMWgiZU8FbL5e3oHo=
+		</data>
+		<key>assets/src/assets/dinheiro.png</key>
+		<data>
+		Ao3UCvMWfWCbIiZJhg14TtqqJrM=
+		</data>
+		<key>assets/src/assets/lanche.png</key>
+		<data>
+		cRu9kmqh5jq1rWFPC7mL8cBdxSc=
+		</data>
+		<key>assets/src/assets/local.png</key>
+		<data>
+		22flGHtVK2pL7Rd+srf0w0gVni4=
+		</data>
 		<key>assets/src/assets/login_banner.png</key>
 		<data>
 		MraofDn8rvoj5sr69nDduRKbYsc=
+		</data>
+		<key>assets/src/assets/logo.png</key>
+		<data>
+		JPUZVcFkOWd6jzkn870zGv0rk+I=
 		</data>
 		<key>assets/src/assets/logo_white.png</key>
 		<data>
 		rwg8tnkki5Wc9SkoHWpQN6bwTs8=
 		</data>
+		<key>assets/src/assets/lupa.png</key>
+		<data>
+		PderZT+g0j9e4Q91eufMUnSqy/k=
+		</data>
+		<key>assets/src/assets/mais.png</key>
+		<data>
+		5dAmnSLl9Mguwb+3GcTsynMBJBI=
+		</data>
+		<key>assets/src/assets/pastel.png</key>
+		<data>
+		9vxFQgxRbGj2h56N8jO7d6R+Mkg=
+		</data>
+		<key>assets/src/assets/row-down.png</key>
+		<data>
+		2waZavxd6MJAd8sUKC7UR3+kaNc=
+		</data>
+		<key>assets/src/assets/salgado.png</key>
+		<data>
+		8p288pCDpMBx5nTDoQ36mfStQnU=
+		</data>
 		<key>main.jsbundle</key>
 		<data>
-		pPU8Z0duE3dqH+t//+ht5yF0FJs=
+		4rVeBf58LKUF98rp8iW+pXJeDJw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6KQcIQu/4GJ9yKswjJwkZ/3Tqfkp/Up+mQ+pFosinvI=
+			UOhfCYTU8AvXDmi7FV+lX55/6pzqi4i8YbPVfiO+yWU=
 			</data>
 		</dict>
 		<key>Frameworks/hermes.framework/Info.plist</key>
@@ -188,11 +256,95 @@
 			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
 			</data>
 		</dict>
+		<key>assets/src/assets/acai.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cyRHqCguHCltmT261ZAI33PEjxHv5IjukVy/YNt5Z6A=
+			</data>
+		</dict>
+		<key>assets/src/assets/back.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vCZMrTyirTmsS4EgvTjmTBJpQJlm+s4MMJ2HZkbgn4s=
+			</data>
+		</dict>
+		<key>assets/src/assets/banner-mc.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tnlwpsGPXBBnjBr2puZ2AtvYYaU41MhpFumu3q7BTLs=
+			</data>
+		</dict>
+		<key>assets/src/assets/bolo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vS5vxXhzWXRZgolhv3HCt6pkcvobZh0LHumOt1dCveE=
+			</data>
+		</dict>
+		<key>assets/src/assets/cart.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DPxjhRGLuxSH7Ycf3+YIOPaMuZoB4Ruj4lwo7YwXB0w=
+			</data>
+		</dict>
+		<key>assets/src/assets/checked.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ui8bo0KLnaHOuZktufW/M/C48jIbmh6sMvhCW2U6pNo=
+			</data>
+		</dict>
+		<key>assets/src/assets/credit-card.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KEsRf4l/k0L39GQNAZ8i0Y16boZJAxX/EELkZlGBfrY=
+			</data>
+		</dict>
+		<key>assets/src/assets/cupom.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uAcp3C/v4Jlv6eQYakMsuS/8vfDHtginlTNfL3eZcEk=
+			</data>
+		</dict>
+		<key>assets/src/assets/dinheiro.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/0NnFR+LwvWpfy8owv1SANL+uP6xcDVu2iut/RJOjQY=
+			</data>
+		</dict>
+		<key>assets/src/assets/lanche.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EIWnEPIp9+HyWZ4Rz0tfnj2vu99hJm1wImTp2GdpTH0=
+			</data>
+		</dict>
+		<key>assets/src/assets/local.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mVHsKQz1Q/AGxxOrAIwqQVJtSUhMJf41VxkwEH9OOlw=
+			</data>
+		</dict>
 		<key>assets/src/assets/login_banner.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			hxwhGzTPFItqYO8YLvbdKEJ3Y11Y8yOnAbjqVUQdN50=
+			</data>
+		</dict>
+		<key>assets/src/assets/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JWC23JM30z4sR9m4f1TalBiEBWXY3XNF0rxpDHUpEdM=
 			</data>
 		</dict>
 		<key>assets/src/assets/logo_white.png</key>
@@ -202,11 +354,46 @@
 			nHFpN6GktFzguTnoFKMrb386Vxg0CN8BmGppQJk3AMM=
 			</data>
 		</dict>
+		<key>assets/src/assets/lupa.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZpkNRLc0nJgbMiR2iZy6oeO+HsdYUWcamImsk30aRpw=
+			</data>
+		</dict>
+		<key>assets/src/assets/mais.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wnEcjePT4hWTCtbyAa4OlsJDs3CySJQjtOlOw1+HVhQ=
+			</data>
+		</dict>
+		<key>assets/src/assets/pastel.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mLuBAvZ3c8DaOV487dLnCgEX+LwpKiTvysjlgCPo3Do=
+			</data>
+		</dict>
+		<key>assets/src/assets/row-down.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+Xuq2WnWAOjk/dy9BbWDp5+ZtV0JOpUDRGoVD1Enef0=
+			</data>
+		</dict>
+		<key>assets/src/assets/salgado.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8MdnqZjj/ACPDPzYRW1i//S0SRQum5uEqqW9Kz/EK3A=
+			</data>
+		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DwAsJLNZ8wA4679wH+E+PfnPDok7jWvIduBPwB5YHU4=
+			hwgYFzI+W1/4F+XEiQfuE0AC/lknTT6gXM2D8zWtvb8=
 			</data>
 		</dict>
 	</dict>
