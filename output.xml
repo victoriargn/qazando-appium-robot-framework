@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.13.2 on darwin)" generated="20250621 17:44:55.215" rpa="false" schemaversion="4">
+<suite id="s1" name="Login" source="/Users/victoriaregina/Desktop/Projects/qazando-appium-robot-framework/tests/android/login.robot">
+<test id="s1-t1" name="Display error message by trying log in with wrong credentials" line="9">
+<kw name="Open Android Test Application" library="open_apps">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://localhost:4723</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=Pixel6Pro</arg>
+<arg>app=${EXECDIR}/apps/qazandofood.apk</arg>
+<arg>udid=emulator-5554</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" starttime="20250621 17:44:55.300" endtime="20250621 17:44:57.821"/>
+</kw>
+<status status="PASS" starttime="20250621 17:44:55.300" endtime="20250621 17:44:57.821"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20250621 17:45:00.823" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20250621 17:44:57.821" endtime="20250621 17:45:00.823"/>
+</kw>
+<kw name="Login with wrong credentials" library="login">
+<arg>${PLATFORM_NAME}</arg>
+<if>
+<branch type="IF" condition="&quot;${PLATFORM_NAME}&quot; == &quot;Android&quot;">
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${AND_EMAIL}</arg>
+<arg>vic.regina@gmail.com</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20250621 17:45:00.828" level="INFO">Typing text 'vic.regina@gmail.com' into text field 'accessibility_id=email'</msg>
+<status status="PASS" starttime="20250621 17:45:00.826" endtime="20250621 17:45:02.023"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${AND_PASSWORD}</arg>
+<arg>298832</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20250621 17:45:02.026" level="INFO">Typing text '298832' into text field 'accessibility_id=password'</msg>
+<status status="PASS" starttime="20250621 17:45:02.023" endtime="20250621 17:45:03.040"/>
+</kw>
+<status status="PASS" starttime="20250621 17:45:00.826" endtime="20250621 17:45:03.040"/>
+</branch>
+<branch type="ELSE">
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${IOS_EMAIL}</arg>
+<arg>vic.regina@gmail.com</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="NOT RUN" starttime="20250621 17:45:03.040" endtime="20250621 17:45:03.040"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${IOS_PASSWORD}</arg>
+<arg>298832</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="NOT RUN" starttime="20250621 17:45:03.041" endtime="20250621 17:45:03.041"/>
+</kw>
+<status status="NOT RUN" starttime="20250621 17:45:03.040" endtime="20250621 17:45:03.041"/>
+</branch>
+<status status="PASS" starttime="20250621 17:45:00.826" endtime="20250621 17:45:03.041"/>
+</if>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${LOGIN_BUTTON}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20250621 17:45:03.043" level="INFO">Clicking element 'accessibility_id=login-button'.</msg>
+<status status="PASS" starttime="20250621 17:45:03.041" endtime="20250621 17:45:03.939"/>
+</kw>
+<status status="PASS" starttime="20250621 17:45:00.826" endtime="20250621 17:45:03.940"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>android=UiSelector().text("Erro ao realizar login")</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20250621 17:45:03.940" endtime="20250621 17:45:04.596"/>
+</kw>
+<status status="PASS" starttime="20250621 17:44:55.299" endtime="20250621 17:45:04.596"/>
+</test>
+<status status="PASS" starttime="20250621 17:44:55.216" endtime="20250621 17:45:04.597"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

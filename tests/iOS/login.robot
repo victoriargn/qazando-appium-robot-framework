@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../../pages/login.robot
+Resource    ../../resources/open_apps.resource
 
 *** Variables ***
 ${PLATFORM_NAME}    iOS
