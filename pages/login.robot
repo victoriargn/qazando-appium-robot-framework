@@ -11,7 +11,6 @@ ${AND_PASSWORD}    accessibility_id=password
 ${LOGIN_BUTTON}    accessibility_id=login-button
 
 *** Keywords ***
-
 Login with wrong credentials
     [Arguments]    ${PLATFORM_NAME}
 
